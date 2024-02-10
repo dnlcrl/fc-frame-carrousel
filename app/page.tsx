@@ -7,8 +7,8 @@ const postUrl = "https://fc-frame-carrousel.vercel.app/api/frame";
 const contractAddress = "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42";
 
 // randomize the tokenID
-const maxSupply = 10000;
-const randomTokenId = Math.floor(Math.random() * maxSupply);
+const maxSupply = 9999;
+const randomTokenId = Math.floor(Math.random() * maxSupply) + 1;
 
 /*
 // fetch nft metadata
