@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     images: [nftImageUrl],
   },
   other: {
-    ...frameMetadata,
     'fc:frame:image:aspect_ratio': '1:1',
+    ...frameMetadata,
   },
 };
 
