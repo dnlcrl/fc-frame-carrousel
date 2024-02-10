@@ -21,7 +21,7 @@ const nftMetadata = await response.json();
 */
 
 // fetch nft metadata
-const nftMetadata = await getNftMetadata(lfghoContractAddress, randomTokenId);
+const nftMetadata = await getNftMetadata(contractAddress, randomTokenId);
 
 // build the image url
 const nftImageUrl = nftMetadata?.image?.cachedUrl;
