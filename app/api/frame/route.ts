@@ -17,6 +17,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image" content=${nftImageUrl} />
     <meta property="fc:frame:button:1" content="Randomize wizard" />
     <meta property="fc:frame:post_url" content=${postUrl} />
+    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
   </head></html>`);
 }
 
