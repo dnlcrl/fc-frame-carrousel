@@ -31,7 +31,7 @@ const frameMetadata = getFrameMetadata({
   buttons: ['Randomize Wizard'],
   image: nftImageUrl,
   post_url: postUrl,
-  'fc:frame:image:aspect_ratio': '1:1',
+  'image:aspect_ratio': '1:1',
 });
 
 export const metadata: Metadata = {
