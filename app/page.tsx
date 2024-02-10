@@ -28,17 +28,17 @@ const nftImageUrl = nftMetadata?.image?.cachedUrl;
 
 
 const frameMetadata = getFrameMetadata({
-  buttons: ['randomize nft'],
+  buttons: ['Randomize Wizard'],
   image: nftImageUrl,
   post_url: postUrl,
 });
 
 export const metadata: Metadata = {
-  title: 'nft carrousel',
-  description: 'nft carrousel',
+  title: 'Wizard carrousel',
+  description: 'Wizard carrousel',
   openGraph: {
-    title: 'nft carrousel',
-    description: 'nft carrousel',
+    title: 'Wizard carrousel',
+    description: 'Wizard carrousel',
     images: [nftImageUrl],
   },
   other: {
